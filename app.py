@@ -12,7 +12,7 @@ def hello():
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CC Endpoint UK South</title>
+    <title>CC Endpoint UK West</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,7 +31,7 @@ def hello():
     </style>
 </head>
 <body>
-    <h1>CC Endpoint UK South</h1>
+    <h1>CC Endpoint UK West</h1>
 </body>
 </html>
 '''
@@ -41,7 +41,7 @@ def health():
     data = {
         'status': 'healthy',
         'uptime_seconds': round(time.time() - START_TIME, 2),
-        'region': 'UK South'
+        'region': 'UK West'
     }
     return Response(json.dumps(data), mimetype='application/json')
 
