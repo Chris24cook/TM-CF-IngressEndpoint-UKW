@@ -12,7 +12,7 @@ def hello():
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Endpoint Azure UK West</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -166,7 +166,7 @@ def hello():
     <div class="scan-line"></div>
     <div class="content">
         <div class="hex-border">
-            <h1></h1>
+            <h1>Endpoint Azure UK West</h1>
             <div class="status-line">
                 <span class="status-dot"></span>ONLINE
             </div>
@@ -181,7 +181,7 @@ def health():
     data = {
         'status': 'healthy',
         'uptime_seconds': round(time.time() - START_TIME, 2),
-        'region': ''
+        'region': 'UK West'
     }
     return Response(json.dumps(data), mimetype='application/json')
 
