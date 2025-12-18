@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'CC-TM-CF-IngressTest-UKW'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E405CECF96744A70A0F56351C7AAEAA3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E01553A23F6642C2851400AC9A9AD468 }}
